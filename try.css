@@ -1,0 +1,194 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background:url(virtualpic.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    
+}
+.form{ width: 450px;
+    height: 500px ;
+    background: black;
+    color: whitesmoke;
+    top: 150px;
+    left :100px;
+    position: absolute;
+    transform: translate(-50%, -50%, );
+    box-sizing: border-box;
+    padding: 100px 100px;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;  
+  left: calc(40%);
+
+}
+h1{
+    margin: 0px;
+    padding : 0 0 50px;
+    text-align: center;
+    font-size:32px
+}
+
+.form label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form input[ type="text"], input[type="password"]
+{
+    border: none;
+   border-bottom: 2px solid red;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:  IndianRed;
+    font-size: 16px;
+}
+button {
+    width: 150px;
+    padding : 5px;
+    margin : 5px;
+    font-size: 24px;
+    color: black;
+    /*border-bottom: none;
+    border-top: none;
+    border-left: none;*/
+    border-style: none;
+    outline: none;
+    background: orangered;
+    border-radius: 20px;
+}
+button:hover{
+    background: white ;
+    cursor: pointer;
+    color: IndianRed;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color:yellow;
+}
+a:hover{
+    color: violet;
+}
+h1{
+    color: orangered;
+}
+
+
+@media screen and (min-width: 300px) {
+    body{
+        padding:0px;
+        margin: 0px;
+        background:url(virtualpic.jpg);
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+       /* align-content: center;*/
+        height: 100vh;
+        display: flex;
+        
+        
+        
+    }
+    
+    .form{ width: 450px;
+        height: 500px ;
+        background: black;
+        color: whitesmoke;
+       top: 50% ;
+        left:  50px ;
+        position: absolute;
+        transform: translate(-50%, -50%, );
+        box-sizing: border-box;
+        padding: 100px 100px;
+        display: flex;
+        
+    }
+    .avatar{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;  
+      left: calc(50%);
+    
+    } 
+    h1{
+        margin: 0px;
+        
+        text-align: center;
+        font-size: 16px;
+    
+    }
+    
+    .form label{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .form input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .form input[ type="text"], input[type="password"]
+    {
+        border: none;
+       border-bottom: 2px solid red;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color:  IndianRed;
+        font-size: 16px;
+    }
+    button {
+        width: 150px;
+        padding : 5px;
+        margin : 5px;
+        font-size: 24px;
+        color: black;
+        /*border-bottom: none;
+        border-top: none;
+        border-left: none;*/
+        border-style: none;
+        outline: none;
+        background: orangered;
+        border-radius: 20px;
+    }
+    button:hover{
+        background: white ;
+        cursor: pointer;
+        color: IndianRed;
+    }
+    a{
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color:yellow;
+    }
+    a:hover{
+        color: violet;
+    }
+    h1{
+        color: orangered;
+    }
+    
+    
+
+    
+    
+}
